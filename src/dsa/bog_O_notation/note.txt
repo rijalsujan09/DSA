@@ -1,0 +1,16 @@
+Time Complexity is measured how long  an algorithm   takes to run.
+And It is usually Expressed in Big O notation.
+And Big O  notation is a way of describing the asymptotic behaviour of the function.
+
+
+       Big O Notation
+        " how code slows as data grows "
+        1. Describe the performance of an algorithm as the amount of the data increases
+        2. Machine independent (# of the steps to completion)
+        3. Ignore smaller operation O(n+1) -> O(n)
+
+         example:    n = amount of data
+         O(1)        (it's a variable like X)
+         O(n)
+         O(log n)
+         O(n pow 2)
