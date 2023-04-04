@@ -20,7 +20,6 @@ public class BubbleSortMain {
         }
 
     }
-
     private static void bubblesort(int[] array) {
         int temp;
 //        { 9,1,4,2,3,6,5,8,7}
