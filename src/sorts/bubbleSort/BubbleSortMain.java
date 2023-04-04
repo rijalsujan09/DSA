@@ -3,6 +3,16 @@ package sorts.bubbleSort;
 public class BubbleSortMain {
     public static void main(String args []){
 
+        /*
+        bubble sort =>
+        pairs of adjacent elements are compared,
+        and the elements are swapped if they are not iin order.
+
+        Time Complexity = quadratic time O(n^2)
+        small data set it's Ok
+        but, larger dataset it,s Complicated.
+         */
+
         int array [] = { 9,1,4,2,3,6,5,8,7};
         bubblesort(array);
         for (int elm : array) {
